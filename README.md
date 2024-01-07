@@ -11,6 +11,7 @@ To asses the password more clearly semantic analysis is done on the data and obs
 
 ## Feature Engineering:
 New features lowercase,   uppercase, digit, special character frequency are created to indicate the fraction of the corresponding features in a given password. 
+
 <img width="609" alt="image" src="https://github.com/amrutha2508/Password-strength-prediction/assets/147953598/31f7be7a-8d7f-4289-a1c5-b7f0afe23712">
 
 
