@@ -11,6 +11,8 @@ To asses the password more clearly semantic analysis is done on the data and obs
 
 ## Feature Engineering:
 New features lowercase,   uppercase, digit, special character frequency are created to indicate the fraction of the corresponding features in a given password. 
+<img width="609" alt="image" src="https://github.com/amrutha2508/Password-strength-prediction/assets/147953598/31f7be7a-8d7f-4289-a1c5-b7f0afe23712">
+
 
 ## Data Analysis:
 Conducted descriptive statistics on all features to assess their distributions across varying strength values. The primary objective was to discern the significance of each feature in predicting password strength. A key aspect of our analysis involved examining the extent of overlap in distribution curves for different strength categories. Features demonstrating minimal overlap were identified as having higher importance in predicting password strength. ‘Length’ feature does not have any overlap among its distribution curves for different strengths, and lower_case_frequency has next least overlap in its distribution across the 3 strength categories, remaining features are observed to have a significantly large amount of overlaps. .This methodology provides valuable insights into the distinctiveness of feature distributions and aids in understanding their relevance to the overall predictive model. 
