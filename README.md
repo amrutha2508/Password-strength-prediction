@@ -31,6 +31,9 @@ Now the data has to be  processed to be machine readable. The given string is co
 <img width="284" alt="tf-idf" src="https://github.com/amrutha2508/Password-strength-prediction/assets/147953598/53b2e354-b0c9-4428-9e8f-19daa452d02f">
 <img width="230" alt="tf" src="https://github.com/amrutha2508/Password-strength-prediction/assets/147953598/4182bc38-4bd5-4984-bb4e-43a89ee062ed">
 
+<img width="834" alt="image" src="https://github.com/amrutha2508/Password-strength-prediction/assets/147953598/b7aff152-72a1-422c-bff8-2cc31e764dca">
+
+A password is represented using a total of 101 features out of which 99 from TF-IDF and 2 other features(length,lowercase_frequency).   
 
 ## Modelling:
 For modeling purpose Logistic regression model is chosen. The data is split into train and test sets with test_size=0.2 .The Logistic regression model is fitted on the training dataset and an accuracy score of 0.801 is obtained by comparing the y_prediction(obtaining by inputting x_test into the model) and y_test sets.
