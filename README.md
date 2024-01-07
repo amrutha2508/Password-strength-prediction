@@ -15,7 +15,7 @@ New features lowercase,   uppercase, digit, special character frequency are crea
 ## Data Analysis:
 Conducted descriptive statistics on all features to assess their distributions across varying strength values. The primary objective was to discern the significance of each feature in predicting password strength. A key aspect of our analysis involved examining the extent of overlap in distribution curves for different strength categories. Features demonstrating minimal overlap were identified as having higher importance in predicting password strength. ‘Length’ feature does not have any overlap among its distribution curves for different strengths, and lower_case_frequency has next least overlap in its distribution across the 3 strength categories, remaining features are observed to have a significantly large amount of overlaps. .This methodology provides valuable insights into the distinctiveness of feature distributions and aids in understanding their relevance to the overall predictive model. 
 
-
+<img width="1193" alt="Screenshot 2024-01-07 at 11 46 11 AM" src="https://github.com/amrutha2508/Password-strength-prediction/assets/147953598/8f5d327f-f0d1-4c38-9ff2-bbbb9d104cc3">
 
 ## Feature Transformation:
 Now the data has to be  processed to be machine readable. The given string is converted to a vector representation with Term Frequency-Inverse Document Frequency (TF-IDF) vectorization. 
